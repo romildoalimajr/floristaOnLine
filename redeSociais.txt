@@ -1,0 +1,15 @@
+<a href="https://www.facebook.com/kalangos.net" target="_blank" class="fab fa-facebook-f"></a>
+<a href="https://www.linkedin.com/in/romildo-a-lima-jr-/" target="_blank" class="fab fa-linkedin"></a>
+<a href="https://www.instagram.com/odlimor.sevla/" target="_blank" class="fab fa-instagram"></a>
+<a href="https://github.com/romildoalimajr" target="_blank" class="fab fa-github"></a>
+<a href="https://api.whatsapp.com/send?phone=5581994701058&text=Oi%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os" target="_blank" class="fab fa-whatsapp"></a>
+<a href="https://api.whatsapp.com/send?phone=5583986003492&text=Oi%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os" target="_blank" class="fab fa-whatsapp"></a>
+<a href="https://t.me/@RomildoAlvesJr" target="_blank" class="fab fa-telegram"></a>
+
+
+<a href="https://www.facebook.com/kalangos.net" target="_blank"><i class="fab fa-facebook-f"></i> facebook</a>
+<a href="https://www.linkedin.com/in/romildo-a-lima-jr-/" target="_blank"><i class="fab fa-linkedin"></i> linkedin</a>
+<a href="https://www.instagram.com/odlimor.sevla/" target="_blank"><i class="fab fa-instagram"></i> instagram</a>
+<a href="https://t.me/@RomildoAlvesJr" target="_blank"><i class="fab fa-telegram"></i> telegram</a>
+<a href="https://api.whatsapp.com/send?phone=5581994701058&text=Oi%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os" target="_blank"><i class="fab fa-whatsapp"></i> whatsapp</a>
+<a href="https://api.whatsapp.com/send?phone=5583986003492&text=Oi%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os" target="_blank"><i class="fab fa-whatsapp"></i> whatsapp</a>
