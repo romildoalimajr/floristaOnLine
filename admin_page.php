@@ -21,8 +21,8 @@ if (!isset($admin_id)) {
     <title>Administrador</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
     <!--<link rel="stylesheet" href="../css/style.css">-->
-    <link rel="stylesheet" href="../css/admin_style.css">
-    <link rel="shortcut icon" type="img/x-icon" href="../img/kalangos.ico">
+    <link rel="stylesheet" href="css/admin_style.css">
+    <link rel="shortcut icon" type="img/x-icon" href="img/kalangos.ico">
 </head>
 
 <body>
@@ -112,7 +112,7 @@ if (!isset($admin_id)) {
         </div>
     </section>
 
-    <script src="../js/admin_script.js"></script>
+    <script src="js/admin_script.js"></script>
 </body>
 
 </html>

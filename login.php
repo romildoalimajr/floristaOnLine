@@ -26,7 +26,7 @@ if (isset($_POST['submit'])) {
             $_SESSION['user_name'] = $row['name'];
             $_SESSION['user_email'] = $row['email'];
             $_SESSION['user_id'] = $row['id'];
-            header('location:home_page.php');
+            header('location:home.php');
         }
     }else{
         $message[] = 'email ou senha errado!';
@@ -41,8 +41,8 @@ if (isset($_POST['submit'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="shortcut icon" type="img/x-icon" href="../img/kalangos.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" type="img/x-icon" href="img/kalangos.ico">
 </head>
 <body>
 <section class="form-container">
