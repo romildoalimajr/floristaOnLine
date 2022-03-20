@@ -23,16 +23,16 @@ if(isset($_POST['add_product'])){
    $select_product_name = mysqli_query($conn, "SELECT name FROM `products` WHERE name = '$name'") or die('query failed');
 
    if(mysqli_num_rows($select_product_name) > 0){
-      $message[] = 'product name already exist!';
+      $message[] = 'nome do produto já existe!';
    }else{
       $insert_product = mysqli_query($conn, "INSERT INTO `products`(name, details, price, image) VALUES('$name', '$details', '$price', '$image')") or die('query failed');
 
       if($insert_product){
          if($image_size > 2000000){
-            $message[] = 'image size is too large!';
+            $message[] = 'image muito grande!';
          }else{
             move_uploaded_file($image_tmp_name, $image_folter);
-            $message[] = 'product added successfully!';
+            $message[] = 'produto adicionado com sucesso!';
          }
       }
    }
@@ -60,7 +60,7 @@ if(isset($_GET['delete'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>products</title>
+   <title>produtos</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -77,12 +77,12 @@ if(isset($_GET['delete'])){
 <section class="add-products">
 
    <form action="" method="POST" enctype="multipart/form-data">
-      <h3>add new product</h3>
-      <input type="text" class="box" required placeholder="enter product name" name="name">
-      <input type="number" min="0" class="box" required placeholder="enter product price" name="price">
-      <textarea name="details" class="box" required placeholder="enter product details" cols="30" rows="10"></textarea>
+      <h3>adicionar novo produto</h3>
+      <input type="text" class="box" required placeholder="nome do produto" name="name">
+      <input type="number" min="0" class="box" required placeholder="preço do produto" name="price">
+      <textarea name="details" class="box" required placeholder="detalhes do produto" cols="30" rows="10"></textarea>
       <input type="file" accept="image/jpg, image/jpeg, image/png" required class="box" name="image">
-      <input type="submit" value="add product" name="add_product" class="btn">
+      <input type="submit" value="adicionar produto" name="add_product" class="btn">
    </form>
 
 </section>
@@ -101,13 +101,13 @@ if(isset($_GET['delete'])){
          <img class="image" src="uploaded_img/<?php echo $fetch_products['image']; ?>" alt="">
          <div class="name"><?php echo $fetch_products['name']; ?></div>
          <div class="details"><?php echo $fetch_products['details']; ?></div>
-         <a href="admin_update_product.php?update=<?php echo $fetch_products['id']; ?>" class="option-btn">update</a>
-         <a href="admin_products.php?delete=<?php echo $fetch_products['id']; ?>" class="delete-btn" onclick="return confirm('delete this product?');">delete</a>
+         <a href="admin_update_product.php?update=<?php echo $fetch_products['id']; ?>" class="option-btn">atualizar</a>
+         <a href="admin_products.php?delete=<?php echo $fetch_products['id']; ?>" class="delete-btn" onclick="return confirm('apagar este produto?');">delete</a>
       </div>
       <?php
          }
       }else{
-         echo '<p class="empty">no products added yet!</p>';
+         echo '<p class="empty">ainda não tem produtos!</p>';
       }
       ?>
    </div>

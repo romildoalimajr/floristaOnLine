@@ -18,7 +18,7 @@ if(!isset($user_id)){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>about</title>
+   <title>Sobre Nós</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -33,8 +33,8 @@ if(!isset($user_id)){
 <?php @include 'header.php'; ?>
 
 <section class="heading">
-    <h3>about us</h3>
-    <p> <a href="home.php">home</a> / about </p>
+    <h3>sobre nós</h3>
+    <p> <a href="home.php">home</a> / sobre </p>
 </section>
 
 <section class="about">
@@ -46,9 +46,9 @@ if(!isset($user_id)){
         </div>
 
         <div class="content">
-            <h3>why choose us?</h3>
+            <h3>por que nos escolher?</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit voluptatum alias sed est in magni nihil nisi deleniti nostrum.</p>
-            <a href="shop.php" class="btn">shop now</a>
+            <a href="shop.php" class="btn">compre agora</a>
         </div>
 
     </div>
@@ -56,9 +56,9 @@ if(!isset($user_id)){
     <div class="flex">
 
         <div class="content">
-            <h3>what we provide?</h3>
+            <h3>o que nós provamos?</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit voluptatum alias sed est in magni nihil nisi deleniti nostrum.</p>
-            <a href="contact.php" class="btn">contact us</a>
+            <a href="contact.php" class="btn">nosso contato</a>
         </div>
 
         <div class="image">
@@ -74,9 +74,9 @@ if(!isset($user_id)){
         </div>
 
         <div class="content">
-            <h3>who we are?</h3>
+            <h3>quem somos nós?</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum odit voluptatum alias sed est in magni nihil nisi deleniti nostrum.</p>
-            <a href="#reviews" class="btn">clients reviews</a>
+            <a href="#reviews" class="btn">os clientes falam</a>
         </div>
 
     </div>
@@ -85,7 +85,7 @@ if(!isset($user_id)){
 
 <section class="reviews" id="reviews">
 
-    <h1 class="title">client's reviews</h1>
+    <h1 class="title">o que falam nossos clientes</h1>
 
     <div class="box-container">
 
@@ -99,7 +99,7 @@ if(!isset($user_id)){
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>fulano de tal</h3>
         </div>
 
         <div class="box">
@@ -112,7 +112,7 @@ if(!isset($user_id)){
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>sicrana de tal</h3>
         </div>
 
         <div class="box">
@@ -125,7 +125,7 @@ if(!isset($user_id)){
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>beltrano de tal</h3>
         </div>
 
         <div class="box">
@@ -138,7 +138,7 @@ if(!isset($user_id)){
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>tetrana de tal</h3>
         </div>
 
         <div class="box">
@@ -151,7 +151,7 @@ if(!isset($user_id)){
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>sicrano de tal</h3>
         </div>
 
         <div class="box">
@@ -164,7 +164,7 @@ if(!isset($user_id)){
                 <i class="fas fa-star"></i>
                 <i class="fas fa-star-half-alt"></i>
             </div>
-            <h3>john deo</h3>
+            <h3>fulana de tal</h3>
         </div>
 
     </div>

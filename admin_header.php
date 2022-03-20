@@ -28,7 +28,7 @@ if (isset($message)) {
             <div id="user-btn" class="fas fa-user"></div>
         </div>
         <div class="account-box">
-            <p>username: <span><?php echo $_SESSION['admin_name']; ?></span></p>
+            <p>usuário: <span><?php echo $_SESSION['admin_name']; ?></span></p>
             <p>email: <span><?php echo $_SESSION['admin_email']; ?></span></p>
             <a href="logout.php" class="delete-btn">logout</a>
             <div>novo <a href="login.php">login</a> | <a href="register.php"> cadastrar</a></div>

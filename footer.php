@@ -3,23 +3,23 @@
     <div class="box-container">
 
         <div class="box">
-            <h3>quick links</h3>
+            <h3>links rápidos</h3>
             <a href="home.php">home</a>
-            <a href="about.php">about</a>
-            <a href="contact.php">contact</a>
-            <a href="shop.php">shop</a>
+            <a href="about.php">sobre</a>
+            <a href="contact.php">contato</a>
+            <a href="shop.php">shopping</a>
         </div>
 
         <div class="box">
-            <h3>extra links</h3>
+            <h3>links extras</h3>
             <a href="login.php">login</a>
-            <a href="register.php">register</a>
-            <a href="orders.php">my orders</a>
-            <a href="cart.php">my cart</a>
+            <a href="register.php">registro</a>
+            <a href="orders.php">meus pedidos</a>
+            <a href="cart.php">meu carrinho</a>
         </div>
 
         <div class="box">
-            <h3>contact info</h3>
+            <h3>contatos</h3>
             <p> <i class="fas fa-phone"></i> (81) 9 9470 1058 </p>
             <p> <i class="fas fa-phone"></i> (83) 9 8600 3492 </p>
             <p> <i class="fas fa-envelope"></i> odlimor.sevla@gmail.com </p>
@@ -27,7 +27,7 @@
         </div>
 
         <div class="box">
-            <h3>follow us</h3>
+            <h3>redes sociais</h3>
             <a href="https://www.facebook.com/kalangos.net" target="_blank"><i class="fab fa-facebook-f"></i> facebook</a>
             <a href="https://www.linkedin.com/in/romildo-a-lima-jr-/" target="_blank"><i class="fab fa-linkedin"></i> linkedin</a>
             <a href="https://www.instagram.com/odlimor.sevla/" target="_blank"><i class="fab fa-instagram"></i> instagram</a>
@@ -38,6 +38,6 @@
 
     </div>
 
-    <div class="credit">&copy; copyright @ <?php echo date('Y'); ?> by <span>romildo jr.</span> </div>
+    <div class="credit">&copy; copyright @ <?php echo date('Y'); ?> by <span>Romildo Jr.</span> </div>
 
 </section>

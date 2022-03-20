@@ -52,7 +52,7 @@ if (isset($_POST['submit'])) {
             <input type="email" name="email" id="" class="box" placeholder="seu email" required>
             <input type="password" name="pass" id="" class="box" placeholder="sua senha" required>
             <input type="submit" value="entrar agora" class="btn" name="submit">
-            <p>você não tem uma conta? <a href="register.php">faça aqui!</a></p>
+            <p>você não tem uma conta? <a href="register.php">clique aqui!</a></p>
         </form> 
     </section>
 </body>

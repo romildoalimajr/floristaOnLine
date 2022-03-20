@@ -47,7 +47,7 @@ if(isset($_GET['delete'])){
 
 <section class="placed-orders">
 
-   <h1 class="title">placed orders</h1>
+   <h1 class="title">pedidos efetuados</h1>
 
    <div class="box-container">
 
@@ -59,23 +59,23 @@ if(isset($_GET['delete'])){
       ?>
       <div class="box">
          <p> user id : <span><?php echo $fetch_orders['user_id']; ?></span> </p>
-         <p> placed on : <span><?php echo $fetch_orders['placed_on']; ?></span> </p>
-         <p> name : <span><?php echo $fetch_orders['name']; ?></span> </p>
-         <p> number : <span><?php echo $fetch_orders['number']; ?></span> </p>
+         <p> localizado : <span><?php echo $fetch_orders['placed_on']; ?></span> </p>
+         <p> nome : <span><?php echo $fetch_orders['name']; ?></span> </p>
+         <p> telefone : <span><?php echo $fetch_orders['number']; ?></span> </p>
          <p> email : <span><?php echo $fetch_orders['email']; ?></span> </p>
-         <p> address : <span><?php echo $fetch_orders['address']; ?></span> </p>
-         <p> total products : <span><?php echo $fetch_orders['total_products']; ?></span> </p>
-         <p> total price : <span>$<?php echo $fetch_orders['total_price']; ?>/-</span> </p>
-         <p> payment method : <span><?php echo $fetch_orders['method']; ?></span> </p>
+         <p> endereço : <span><?php echo $fetch_orders['address']; ?></span> </p>
+         <p> total de produtos : <span><?php echo $fetch_orders['total_products']; ?></span> </p>
+         <p> preço total : <span>$<?php echo $fetch_orders['total_price']; ?>/-</span> </p>
+         <p> método de pagamento : <span><?php echo $fetch_orders['method']; ?></span> </p>
          <form action="" method="post">
             <input type="hidden" name="order_id" value="<?php echo $fetch_orders['id']; ?>">
             <select name="update_payment">
                <option disabled selected><?php echo $fetch_orders['payment_status']; ?></option>
-               <option value="pending">pending</option>
-               <option value="completed">completed</option>
+               <option value="pendente">pendente</option>
+               <option value="completo">completo</option>
             </select>
-            <input type="submit" name="update_order" value="update" class="option-btn">
-            <a href="admin_orders.php?delete=<?php echo $fetch_orders['id']; ?>" class="delete-btn" onclick="return confirm('delete this order?');">delete</a>
+            <input type="submit" name="update_order" value="atualizar" class="option-btn">
+            <a href="admin_orders.php?delete=<?php echo $fetch_orders['id']; ?>" class="delete-btn" onclick="return confirm('apagar este pedido?');">delete</a>
          </form>
       </div>
       <?php
